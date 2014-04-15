@@ -15,7 +15,7 @@ public class FindLargest{
       int largest = a; // assume the first value is largest
       for(int num : nums){ //for each num in nums
       	if(num > largest){ //if present num is larger than largest so far,
-      		largest = num; // assign largest to num
+      		largest = num; // assign num to largest
       	}
       }
       return largest; 
